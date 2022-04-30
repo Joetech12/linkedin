@@ -5,7 +5,7 @@ import AddIcon from '@mui/icons-material/Add';
 
 function Sidebar() {
   return (
-    <div className="flex-[0.2] mx-[12px] ">
+    <div className="flex-[0.2] mx-[12px] sticky top-[-400px] ">
       {/* Sidebar top */}
       <div className="bg-white rounded-lg border-[1px] mb-2">
         {/* profile */}
