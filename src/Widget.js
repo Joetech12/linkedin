@@ -11,7 +11,7 @@ import { BsCalendar3, BsThreeDots, BsCardImage } from "react-icons/bs";
 
 function Widget() {
   return (
-    <div className="flex-[0.3] mx-[12px] sticky top-[-312px]">
+    <div className="lg:flex lg:flex-col xs:hidden xs:flex-[0] md:flex-[0.3] lg:flex-[0.3] mx-[1px] sticky top-[-312px]">
       {/* Feed top section */}
       <div className="bg-white rounded-lg border-[1px] flex flex-col pt-4 mb-2">
         {/* Add your feed */}
@@ -156,12 +156,12 @@ function Widget() {
             <div>
               <div className="flex flex-col items-start">
                 {/* Name */}
-                <p className="font-semibold text-gray-600 text-[14px] mb-[-7px] cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700">
+                <p className="font-semibold text-gray-600 text-[14px] mb-[px] cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700">
                   Reach new tech audiences
                 </p>
                 {/* Title */}
                 <div className="flex items-center">
-                  <p className="font-normal text-gray-600 text-[12px] cursor-pointer">
+                  <p className="font-normal text-gray-600 text-[12px] cursor-pointer leading-[16px]">
                     Our targeting capabilities help you to engage hard-to-reach
                     the tech buyer
                   </p>
@@ -185,12 +185,12 @@ function Widget() {
             <div>
               <div className="flex flex-col items-start">
                 {/* Name */}
-                <p className="font-semibold text-gray-600 text-[14px] mb-[-7px] cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700">
+                <p className="font-semibold text-gray-600 text-[14px] cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700">
                   Templates for any project
                 </p>
                 {/* Title */}
                 <div className="flex items-center">
-                  <p className="font-normal text-gray-600 text-[12px] cursor-pointer">
+                  <p className="font-normal text-gray-600 text-[12px] leading-[16px] cursor-pointer">
                     Never start a project with a blank page. Start with
                     Confluence for free!
                   </p>
@@ -219,7 +219,7 @@ function Widget() {
                 </p>
                 {/* Title */}
                 <div className="flex items-center">
-                  <p className="font-normal text-gray-600 text-[12px] cursor-pointer">
+                  <p className="font-normal text-gray-600 text-[12px] leading-[16px] cursor-pointer">
                     See why CircleCI is the most popular GitHub integration.
                   </p>
                   <HiChevronRight
@@ -253,7 +253,10 @@ function Widget() {
             <p className="text-gray-500 text-[12px]  cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700">
               Privacy & Terms
             </p>
-            <HiChevronDown size={20} className="text-gray-500 cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700" />
+            <HiChevronDown
+              size={20}
+              className="text-gray-500 cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700"
+            />
           </div>
           <p className="text-gray-500 text-[12px] cursor-pointer mr-5 hover:underline decoration-blue-700 hover:text-blue-700">
             Ad Choices
@@ -268,7 +271,10 @@ function Widget() {
             <p className="text-gray-500 text-[12px]  cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700">
               Business Services
             </p>
-            <HiChevronDown size={20} className="text-gray-500 cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700" />
+            <HiChevronDown
+              size={20}
+              className="text-gray-500 cursor-pointer hover:underline decoration-blue-700 hover:text-blue-700"
+            />
           </div>
         </div>
         {/* line4 */}
@@ -282,13 +288,13 @@ function Widget() {
         </div>
         {/* copyright line */}
         <div className="flex mr-5 items-center">
-        <img
-              src="/linkedIn-footer.svg"
-              alt=""
-              className="h-[15px] rounded-[] mr-1 cursor-pointer"
-            />
+          <img
+            src="/linkedIn-footer.svg"
+            alt=""
+            className="h-[15px] rounded-[] mr-1 cursor-pointer"
+          />
           <p className="text-gray-500 text-[13px] font-semibold cursor-pointer">
-          © 2022 - Ifeanyi Umeh
+            © 2022 - Ifeanyi Umeh
           </p>
         </div>
       </div>

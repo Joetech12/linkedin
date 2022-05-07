@@ -148,26 +148,34 @@ function FeedTemplate1({
 
         {/* Like, Comment, Share */}
         <div className="flex items-center justify-around w-full">
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-6 my-2">
-            <AiOutlineLike
-              size={25}
-              className="text-gray-600 mr-1 scale-x-[-1]"
-            />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-6 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <AiOutlineLike
+                size={0}
+                className="text-gray-600 mr-1 scale-x-[-1]"
+              />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Like</p>
           </div>
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-4 my-2">
-            <BiCommentDetail
-              size={25}
-              className="text-gray-600 mr-1 scale-x-[-1]"
-            />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-4 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <BiCommentDetail
+                size={0}
+                className="text-gray-600 mr-1 scale-x-[-1]"
+              />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Comment</p>
           </div>
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-6 my-2">
-            <RiShareBoxFill size={25} className="text-gray-600 mr-1" />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-6 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <RiShareBoxFill size={0} className="text-gray-600 mr-1" />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Share</p>
           </div>
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-6 my-2">
-            <RiSendPlaneFill size={25} className="text-gray-600 mr-1" />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-6 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <RiSendPlaneFill size={0} className="text-gray-600 mr-1" />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Send</p>
           </div>
         </div>

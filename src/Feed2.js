@@ -82,7 +82,7 @@ function FeedTemplate2() {
                 {/* Name */}
                 <p className="font-semibold text-gray-600 text-[14px]  cursor-pointer ">
                   <span className="">
-                    Official Partner of McLauren Extreme E
+                    Official Partner of McLauren Extreme
                   </span>{" "}
                   <span className="font-normal"></span>
                 </p>
@@ -98,7 +98,7 @@ function FeedTemplate2() {
           <div className="flex items-center ">
             <div className="flex items-center bg-blue-100/70 outline outline-[1.5px] outline-blue-700 px-3 rounded-[20px]  hover:bg-blue-200 hover:outline-[2px] transition-all duration-100 ease-in-out">
               <p className="font-semibold text-blue-700  text-[14px] hover:scale-x-[1] cursor-pointer ">
-                Learn more
+                Enquire
               </p>
             </div>
           </div>
@@ -140,26 +140,34 @@ function FeedTemplate2() {
 
         {/* Like, Comment, Share */}
         <div className="flex items-center justify-around w-full">
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-6 my-2">
-            <AiOutlineLike
-              size={25}
-              className="text-gray-600 mr-1 scale-x-[-1]"
-            />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-6 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <AiOutlineLike
+                size={0}
+                className="text-gray-600 mr-1 scale-x-[-1]"
+              />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Like</p>
           </div>
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-4 my-2">
-            <BiCommentDetail
-              size={25}
-              className="text-gray-600 mr-1 scale-x-[-1]"
-            />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-4 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <BiCommentDetail
+                size={0}
+                className="text-gray-600 mr-1 scale-x-[-1]"
+              />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Comment</p>
           </div>
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-6 my-2">
-            <RiShareBoxFill size={25} className="text-gray-600 mr-1" />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-6 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <RiShareBoxFill size={0} className="text-gray-600 mr-1" />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Share</p>
           </div>
-          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 px-6 my-2">
-            <RiSendPlaneFill size={25} className="text-gray-600 mr-1" />
+          <div className="flex items-center cursor-pointer hover:bg-gray-700/10 hover:rounded-[7px] py-3 md:px-[2px] md:px-6 my-2">
+            <div className="xs:text-[20px] md:text-[25px]">
+              <RiSendPlaneFill size={0} className="text-gray-600 mr-1" />
+            </div>
             <p className="font-semibold text-gray-600 text-[14px]">Send</p>
           </div>
         </div>
